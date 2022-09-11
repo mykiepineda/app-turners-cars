@@ -1,0 +1,91 @@
+.container {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  /* H2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47.78px;
+  line-height: 72px;
+  /* identical to box height */
+
+  color: #414750;
+
+  margin: 0 0 25px 0;
+}
+
+.body {
+  width: 780px;
+
+  /* body m */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  /* Typography/Body */
+
+  color: #414750;
+
+  padding: 0;
+}
+
+.popular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 200;
+  width: 171px;
+  height: 40px;
+  top: 20px;
+
+  background: #5eaaf6;
+  border-radius: 20px;
+}
+
+.popular h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  margin: 0;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+.secondary-card-1 {
+  position: relative;
+  left: 20px;
+}
+
+.secondary-card-2 {
+  position: relative;
+  left: -20px;
+}

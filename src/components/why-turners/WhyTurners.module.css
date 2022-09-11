@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 800px;
+  background: #F3F4F5;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47.78px;
+  line-height: 72px;
+  color: #414750;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+.sub-heading {
+  width: 781px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #414750;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.cards {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}

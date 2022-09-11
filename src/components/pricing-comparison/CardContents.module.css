@@ -1,0 +1,163 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  width: 200px;
+
+  /* h4 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27.648px;
+  line-height: 32px;
+  /* or 116% */
+
+  text-align: center;
+
+  color: #414750;
+}
+
+.items {
+  list-style-type: none;
+  margin: 10px 0 20px 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-icon {
+  width: 19.24px;
+  height: 19.24px;
+}
+
+.item-text {
+  margin-left: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.2px;
+  line-height: 24px;
+  /* or 125% */
+
+  color: #2b2c34;
+}
+
+.item-text.unavailable {
+  color: #c4c4c4;
+}
+
+.button-primary,
+.button-secondary,
+.button-link {
+  margin: 10px 0 10px 0;
+}
+
+.button-primary {
+  /* Buttons/Primary/Medium/Default/False/False/No Icon */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 24px;
+  gap: 10px;
+
+  width: 128px;
+  height: 40px;
+
+  background: #0076be;
+  border-radius: 25px;
+}
+
+.button-primary span,
+.button-secondary span {
+  /* Button | Links/Button | Links Medium */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button-primary span {
+  color: #ffffff;
+}
+
+.button-secondary span {
+  color: #0076be;
+}
+
+.button-secondary {
+  /* Buttons/Secondary/Medium/Default/False/False/No Icon/True */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 24px;
+  gap: 10px;
+
+  width: 128px;
+  height: 40px;
+
+  border: 1.4px solid #0076be;
+  border-radius: 25px;
+}
+
+.button-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-decoration-line: underline;
+
+  color: #5eaaf6;
+}
+
+.button-primary:hover {
+  background: #ffffff;
+  border: 1.4px solid #0076be;
+}
+
+.button-secondary:hover {
+  background: #0076be;
+}
+
+.button-primary:hover span {
+  color: #0076be;
+}
+
+.button-secondary:hover span {
+  color: #ffffff;
+}
+
+.button-link:hover {
+  color: #004a86;
+}

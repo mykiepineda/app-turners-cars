@@ -1,0 +1,13 @@
+.container {
+  height: 267px;
+  background: #afb1b6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group {
+  display: flex;
+  align-items: baseline;
+  gap: 100px;
+}

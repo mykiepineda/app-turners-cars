@@ -1,0 +1,13 @@
+.container {
+  width: 390px;
+  height: 608px;
+  background: #ffffff;
+  border: 3px solid #5eaaf6;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+}

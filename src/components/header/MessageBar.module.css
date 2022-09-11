@@ -1,0 +1,55 @@
+.container {
+  height: 48px;
+  background: #5eaaf6;
+  position: relative;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  height: 48px;
+}
+
+.text {
+  width: 461px;
+  height: 21px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.button-container {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.link:hover,
+.button-container button:hover svg {
+  color: #0076be;
+}

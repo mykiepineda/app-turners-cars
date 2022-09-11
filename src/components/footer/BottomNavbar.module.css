@@ -1,0 +1,33 @@
+.container {
+  height: 53px;
+  background: #61646b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15% 0 15%;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.container div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.group button:hover {
+  color: #afb1b6;
+}

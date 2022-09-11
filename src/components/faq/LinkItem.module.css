@@ -1,0 +1,48 @@
+.item {
+  /* Rectangle 23785 */
+
+  box-sizing: border-box;
+
+  width: 575.18px;
+  height: 65.14px;
+
+  background: #ffffff;
+  border: 1px solid #f3f4f5;
+  box-shadow: 0px 0px 0.9px 0.9px rgba(0, 0, 0, 0.15);
+}
+
+.item.active {
+  background: #f2f6fc;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.button:hover {
+  background: #f2f6fc;
+}
+
+.button:hover svg {
+  color: #0076be;
+}
+
+.button-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 135% */
+
+  color: #000000;
+  margin-left: 20px;
+}

@@ -1,0 +1,32 @@
+.container {
+  height: 48px;
+  background: #0076be;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+  padding-right: 10%;
+}
+
+.container button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.container span {
+  margin: 0 5px 0 5px;
+}
+
+.container button:hover {
+  color: red;
+}

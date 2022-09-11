@@ -1,0 +1,19 @@
+.container {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.image-container {
+  width: 537px;
+  height: 800px;
+  position: relative;
+}
+
+.image {
+  flex: none;
+  position: absolute;
+  top: 160px;
+}

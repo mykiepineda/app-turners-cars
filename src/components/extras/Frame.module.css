@@ -1,0 +1,46 @@
+.image {
+  border-radius: 20px;
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+}
+
+.heading {
+  position: relative;
+  width: 273px;
+  left: 19px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.2px;
+  line-height: 24px;
+  /* or 125% */
+
+  color: #414750;
+}
+
+.button {
+  position: relative;
+  left: 19px;
+}
+
+.button span {
+  /* body m */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #5eaaf6;
+
+  margin-right: 10px;
+}
+
+.button:hover span,
+.button:hover svg {
+  color: #004a86;
+}

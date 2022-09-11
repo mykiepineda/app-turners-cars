@@ -1,0 +1,113 @@
+.container {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 181px 0px 0px;
+  gap: 34px;
+
+  position: absolute;
+  width: 630px;
+  height: 356px;
+  left: 180px;
+  top: 265px;
+}
+
+.heading {
+  width: 630px;
+  height: 160px;
+
+  /* Heading/H1 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57.33px;
+  line-height: 80px;
+  /* or 140% */
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin: 0;
+}
+
+.content {
+  width: 430px;
+  height: 72px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  margin: 0;
+}
+
+.button {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 28px;
+  gap: 10px;
+
+  width: 170px;
+  height: 56px;
+
+  background: #0076be;
+  border-radius: 25px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.button span {
+  width: 114px;
+  height: 24px;
+
+  /* Button | Links/Button | Links Large */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 24px;
+  /* identical to box height, or 125% */
+
+  /* Gray Scale | White/White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button:hover {
+  background: #004a86;
+}

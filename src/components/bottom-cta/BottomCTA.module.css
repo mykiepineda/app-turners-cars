@@ -1,0 +1,133 @@
+.container {
+  height: 400px;
+  background: #5eaaf6;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.element-group {
+  position: relative;
+  width: 1200px;
+  height: 400px;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+.foreground-1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.foreground-2 {
+  position: absolute;
+  top: calc(115px / 2);
+  right: 0;
+}
+
+.group-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.group-text h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+
+  /* Primary/0 */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.group-text p {
+  width: 578px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  /* Primary/0 */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button {
+  cursor: pointer;
+  background: transparent;
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 28px;
+  gap: 10px;
+
+  position: absolute;
+  width: 268px;
+  height: 56px;
+  left: 350px;
+  top: 270px;
+
+  border: 1.4px solid #ffffff;
+  border-radius: 25px;
+}
+
+.button span {
+  /* Button | Links/Button | Links Large */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 24px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button:hover {
+  background: #0076be;
+  border-color: #0076be;
+}

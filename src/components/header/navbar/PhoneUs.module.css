@@ -1,0 +1,66 @@
+.container {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 16px 0;
+  gap: 10px;
+
+  width: 199px;
+  height: 56px;
+
+  border: 1.4px solid #0076be;
+  border-radius: 25px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1112px;
+  top: 80px;
+}
+
+.phone {
+  margin-left: 10px;
+  width: 143px;
+  height: 24px;
+
+  /* Button | Links/Button | Links Large */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 24px;
+  /* identical to box height, or 125% */
+
+  /* Primary */
+
+  color: #0076be;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+button.container:hover {
+  background: #0076be;
+}
+
+button.container:hover span,
+button.container:hover svg {
+  color: #ffffff;
+}
